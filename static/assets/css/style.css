@@ -1,0 +1,241 @@
+#search-box {
+    border-radius: 20px;
+    width: 60%;
+    min-height: 80px;
+    max-width: 600px;
+    text-align: center;
+    font-size: 24px;
+    /* font-weight: 800; */
+   display: inline-block;
+   padding: 24px 32px;
+   border: 0;
+   text-decoration: none;
+   background-color: rgba(255,255,255,1);
+   border: 1px solid rgba(255,255,255,0.1);
+   border-color: rgba(0, 0,0 ,0.2);
+   backdrop-filter: blur(30px);
+   color: rgba(0, 0,0 ,0.8);
+   letter-spacing: 2px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+body a {
+  position: absolute; 
+  top: 10em; 
+  right: 40px;
+  font-size: 8px;
+  text-decoration:none;
+    color: rgba(0, 0,0,0.9);
+}
+
+#search-box::placeholder {
+  color: rgba(0, 0, 0,0.4);
+  /* font-weight: 600; */
+  opacity: 1; /* Firefox */
+}
+
+#search-box:focus {
+    outline: none !important;
+    border:1px solid gray;
+    box-shadow: 0 0 10px #f9f0e8;
+}
+
+#search-box:focus::placeholder {
+    color: transparent;
+}
+
+#search-box::-webkit-input-placeholder {
+  white-space:pre-line;  
+  position:relative;
+  top: -8px;
+}
+
+#search-button {
+    margin-top: 20px;
+    min-height: 64px;
+    max-width: 600px;
+    /* width: 72%; */
+    text-align: center;
+    font-size: 20px;
+   letter-spacing: 2px;
+    /* font-weight: 800; */
+    border-radius: 60px;
+}
+
+.navbar-container {
+    background-color: rgba(0,0,0,0.02);
+    /* margin: -8px -8px 30px -8px; */
+    height: 7em;
+}
+
+.navbar {
+    height: 100%;
+    width: 80%; 
+    margin: auto; 
+    display: flex;
+    align-items:center;
+}
+
+.navbar h1 {
+    font-size: 3em;
+    margin: 0;
+    vertical-align: bottom;
+    align-self: center;
+    text-align: justify;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    /* font-style: italic; */
+    color: rgba(0, 0,0,0.9);
+}
+
+.searchbar-container {
+    margin: 40px auto;
+    padding-top: 40px;
+}
+
+.searchbar {
+  overflow: auto;
+  /* height: 110%; */
+  width: 80%; 
+  margin: auto; 
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+.searchbar form {
+  display: inline;
+}
+
+.searchbar h4 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+
+.footer-container {
+    /* margin: 0px -8px 30px -8px; */
+    height: 4em;
+    width: 100%;
+    margin: auto; 
+    align-items:center;
+    display: flex;
+}
+
+footer {
+  text-align: center;
+  width: 100%;
+  font-size: 12px;
+  margin: auto;
+  position: absolute;
+  bottom: 0;
+  white-space: nowrap;
+  padding-bottom: 20px;
+  font-family: 'Raleway', sans-serif;
+}
+
+footer h1 {   
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+
+#googlecloudai {
+  color: #1a73e8;
+  display: inline;
+}
+
+.glass-container {
+  padding-bottom: 40px;
+}
+
+.glass-button {
+   /* display: inline-block; */
+   padding: 24px 32px;
+   border: 0;
+   text-decoration: none;
+   border-radius: 15px;
+   background-color: rgba(0, 0, 0,0.4);
+   border: 1px solid rgba(255,255,255,0.1);
+   backdrop-filter: blur(30px);
+   /* color: rgba(255,255,255,0.8); */
+   color: rgba(255, 255, 255, 0.9);
+   font-size: 14px;
+   letter-spacing: 2px;
+   cursor: pointer;
+   /* text-transform: uppercase; */
+   font-family: 'Raleway', sans-serif;
+   text-align: center;
+ }
+
+.glass-panel {
+  color: #000;
+  margin: 40px auto;
+  background-color: rgba(0,0,0,0.05);
+  border: 1px solid rgba(255,255,255,0.1);
+  width: 80%;
+  border-radius: 15px;
+  padding: 32px;
+  backdrop-filter: blur(10px);
+  word-wrap: break-word;
+  white-space: pre-wrap; 
+  font-family: 'Raleway', sans-serif;
+  font-size: 400;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+  background-color: #5d5c5c;
+  margin:0;
+
+  /* will be "on top", if browser supports it */
+  background-image: linear-gradient(2deg, #eacaab, #ecdbcc, #f9f0e8);
+
+  /* these will reset other properties, like background-position, but it does know what you mean */
+  background: #5d5c5c;
+  background: linear-gradient(-45deg, #eacaab, #ecdbcc, #f9f0e8, #eacaab);
+  animation: gradient 8s ease infinite;
+  /* height: 100vh; */
+  background-size: 400% 400%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+
+ .glass-button:hover {
+   background-color: rgba(0, 0, 0,0.2);
+ }
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	top:40px;
+	right:40px;
+	background-image: url("../icons/england-icon.svg");
+  background-size: 100% 100%;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+}
+
+.my-float{
+	margin-top:22px;
+}

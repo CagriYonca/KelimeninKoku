@@ -1,0 +1,16 @@
+tüfek kelimesinin kökünü bul. Kelimenin kökünün anlamını, neden böyle söylendiğini ve kelimenin kökünün Türkçe'ye nereden geldiğini etimolojik ve filolojik olarak incele. Bir kelimenin söylenişinden dönüşerek bu hale geldiyse geldiği kelimenin tarihini ve anlamını incele. Kelimenin kökü Türkçe'ye geçerken ne zaman ve nasıl dönüştüğünü incele. Bütün varyasyonların ilk hangi kaynakta geçtiği hakkında bilgilendir. İlk kayıtların bulunduğu cümleleri ve cümlenin geçtiği metni göster. Kelimenin neden bu şekilde dönüştüğü hakkında yorum ekle. Kelimenin kökünün varyasyonları varsa ait olduğu dil ve anlam bakımından karşılaştır. Konuyla ilgili bütün farklı kaynakları araştır, bulgularını başlıklandırarak paylaş.
+
+
+# create vm instance as e2-micro
+# push project and run with django debug
+# run with gunicorn
+# setup nginx and run in http
+# setup https with lets encrypt
+
+# https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-22-04
+
+# ssh connection
+ssh -i ~/.ssh/cy2 cagriyonca2@34.38.156.171
+
+# to restart
+sudo systemctl restart gunicorn
